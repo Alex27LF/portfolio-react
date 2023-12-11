@@ -11,7 +11,7 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 38px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
@@ -21,44 +21,9 @@
   color: var(--color-primary);
 }
 
-button {
-  border: 0;
-  padding: 0;
-  background: transparent;
-  cursor: pointer;
-  outline: none;
-}
-
-.burger {
-  position: relative;
-}
-
-.menu {
-  position: fixed;
-}
-
-.burger {
-  z-index: 4;
-  top: 0;
-  left: 0;
-  display: grid;
-  place-items: center;
-  width: 88px;
-  height: 88px;
-  background-image: url("/assets/navbar/menu.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.burger.open {
-  background-image: url("/assets/navbar/close.png");
-}
-
 .background {
   position: fixed;
   z-index: 2;
-  top: 44px;
-  left: 44px;
   aspect-ratio: 1 / 1;
   translate: -50% -50%;
   height: 88px;
@@ -68,53 +33,27 @@ button {
   transition: 0.6s;
 }
 
-.background.open {
-  height: 300vh;
-  opacity: 0.85;
-}
-
 .menu {
-  z-index: 3;
-  top: 0;
-  left: 0;
   display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.05s;
 }
 
 .menu nav {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding-left: 100px;
-}
-
-.menu.open {
-  opacity: 1;
-  visibility: visible;
+  gap: 47px;
+  list-style: none;
 }
 
 .menu a {
   position: relative;
-  font-family: "Outfit";
-  color: #f9f9f9;
-  font-size: 32px;
-  padding: 20px 0 20px 20px;
-  width: 300px;
+  color: var(--color-text);
+  font-size: 25px;
   text-decoration: none;
   text-transform: capitalize;
-  opacity: 0;
   cursor: pointer;
-  transition: 0.4s;
 }
 
 .menu nav:hover > a {
-  opacity: 0.25;
+  opacity: 0.15;
 }
 
 .menu nav > a:hover {
@@ -124,12 +63,12 @@ button {
 .menu a::after {
   content: "";
   position: absolute;
-  left: 0;
-  bottom: 10px;
-  width: 75%;
+  left: -5px;
+  bottom: 0;
+  width: 110%;
   height: 2px;
   border-radius: 2px;
-  background: #f7f7f7;
+  background: var(--color-primary);
   transform: scaleX(0);
   transform-origin: 0% 50%;
   transition: 0.4s;
@@ -137,10 +76,6 @@ button {
 
 .menu a:hover::after {
   transform: scaleX(1);
-}
-
-.menu.open a {
-  opacity: 1;
 }
 
 @keyframes appear {
@@ -155,4 +90,89 @@ button {
 
 .appear {
   animation: appear 0.35s backwards;
+}
+
+@media (min-width: 845px) {
+  .burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .burger {
+    position: relative;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    width: 88px;
+    height: 50px;
+    background-image: url("/assets/navbar/menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .burger.open {
+    background-image: url("/assets/navbar/close.png");
+  }
+
+  .background.open {
+    height: 300vh;
+    opacity: 0.85;
+  }
+
+  .menu {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .menu nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15%;
+  }
+
+  .menu.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .menu a {
+    font-size: 30px;
+    padding: 12px 0 12px 18px;
+    width: 250px;
+    opacity: 0;
+    transition: 0.4s;
+  }
+
+  .menu a::after {
+    left: 10px;
+    bottom: 10px;
+    width: 85%;
+    height: 3px;
+    background: #fff;
+  }
+
+  .menu.open a {
+    opacity: 1;
+  }
 }

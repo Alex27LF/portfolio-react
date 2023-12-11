@@ -15,7 +15,7 @@ export const Navbar = () => {
         <button
           className={`burger ${isOpen}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-        ></button>
+        />
         <div className={`background ${isOpen}`} />
         <div className={`menu ${isOpen}`}>
           <nav onClick={() => setIsMenuOpen(false)}>
