@@ -4,8 +4,7 @@
   background-color: var(--color-bg);
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
-  position: relative;
+  overflow: hidden;
 }
 
 * {
@@ -19,4 +18,22 @@ html, body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+}
+
+/* Asegura que las secciones tengan espacio suficiente para la animación */
+section {
+  margin-bottom: 100px;
+}
+
+/* Estilos para el scroll suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Asegura que las secciones tengan un mínimo de altura para la animación */
+.AnimatedSection {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

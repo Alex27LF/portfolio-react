@@ -1,22 +1,40 @@
+import { useState } from "react";
 import styles from "./App.module.css";
 import { Navbar } from "./componets/Navbar/Navbar";
 import { Profile } from "./componets/Profile/Profile";
-import { About } from "./componets/About/About";
-import { Technologies } from "./componets/Technologies/Technologies";
 import { Experience } from "./componets/Experience/Experience";
 import { Projects } from "./componets/Projects/Projects";
+import { Technologies } from "./componets/Technologies/Technologies";
 import { Contact } from "./componets/Contact/Contact";
+import { AnimatedSection } from "./componets/AnimatedSection/AnimatedSection";
 import { ScrollToTop } from "./componets/ScrollToTop/ScrollToTop";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className={styles.App}>
-      <Navbar />
+      <Navbar isOpen={isOpen} toggleMenu={toggleMenu} />
       <Profile />
-      <Technologies />
-      <Experience />
-      <Projects />
-      <Contact />
+      {/*<AnimatedSection>
+        <About />
+      </AnimatedSection>*/}
+      <AnimatedSection>
+        <Technologies />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Experience />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Projects />
+      </AnimatedSection>
+      <AnimatedSection>
+        <Contact />
+      </AnimatedSection>
       <ScrollToTop />
     </div>
   );
