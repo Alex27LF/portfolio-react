@@ -8,6 +8,8 @@ import { Technologies } from "./componets/Technologies/Technologies";
 import { Contact } from "./componets/Contact/Contact";
 import { AnimatedSection } from "./componets/AnimatedSection/AnimatedSection";
 import { ScrollToTop } from "./componets/ScrollToTop/ScrollToTop";
+import { SEO } from "./componets/SEO/SEO";
+import { Background } from "./componets/Background/Background";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +20,8 @@ function App() {
 
   return (
     <div className={styles.App}>
+      <SEO />
+      <Background />
       <Navbar isOpen={isOpen} toggleMenu={toggleMenu} />
       <Profile />
       {/*<AnimatedSection>
