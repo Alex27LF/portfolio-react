@@ -1,55 +1,9 @@
 import styles from "./Technologies.module.css";
 import { getImageUrl } from "../../utils";
+import technologiesData from "../../data/technologies.json";
 
 export const Technologies = () => {
-  const technologies = [
-    {
-      name: "Scriptcase",
-      icon: "scriptcase.png",
-    },
-    {
-      name: "Kalipso Studio",
-      icon: "kalipso.png",
-    },
-    {
-      name: "Microsoft SQL Server",
-      icon: "microsoftsqlserver.svg",
-    },
-    {
-      name: "PostgreSQL",
-      icon: "postgresql.svg",
-    },
-    {
-      name: "TypeScript",
-      icon: "typescript.svg",
-    },
-
-    {
-      name: "Flutter",
-      icon: "flutter.svg",
-    },
-
-    {
-      name: "React",
-      icon: "react.svg",
-    },
-    {
-      name: "Node.js",
-      icon: "nodejs.svg",
-    },
-    {
-      name: "Express",
-      icon: "express.svg",
-    },
-    {
-      name: "Insomnia",
-      icon: "insomnia.svg",
-    },
-    {
-      name: "GitHub",
-      icon: "github.svg",
-    },
-  ];
+  const { technologies } = technologiesData;
 
   return (
     <section className={styles.container} id="technologies">

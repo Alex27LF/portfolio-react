@@ -1,0 +1,31 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "company": "Pacusoft S.A.S.",
+      "position": "Software Engineer",
+      "period": "feb 2024 - Present",
+      "duration": "",
+      "description": "Leading development of enterprise-level applications using React and Node.js. Implementing microservices architecture and cloud solutions.",
+      "image": "pacusoft.png"
+    },
+    {
+      "id": 2,
+      "company": "Corporación Wolf S.A.",
+      "position": "Backend de Facturación Electrónica",
+      "period": "feb 2023 - ago 2023",
+      "duration": "6 meses",
+      "description": "Developed and maintained web applications using modern JavaScript frameworks. Collaborated with cross-functional teams on large-scale projects.",
+      "image": "wolf.png"
+    },
+    {
+      "id": 3,
+      "company": "Corporación Wolf S.A.",
+      "position": "Desarrollador Full-Stack en el Sistema de Logística de Paquetería Quibox",
+      "period": "sep 2022 - nov 2022",
+      "duration": "240 horas",
+      "description": "Worked on front-end development using React and Redux. Participated in agile development processes and code reviews.",
+      "image": "wolf.png"
+    }
+  ]
+}
