@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Quibox",
+      "description": "Sistema de Logística de Paquetería",
+      "images": [
+        "technologies/nestjs.svg",
+        "technologies/javascript.svg",
+        "technologies/typescript.svg"
+      ],
+      "technologies": ["React", "Node.js", "MongoDB", "Express"],
+      "link": "https://quibox.com"
+    },
+    {
+      "id": 2,
+      "title": "Portfolio",
+      "description": "Portafolio Personal",
+      "images": [
+        "projects/portfolio1.png",
+        "projects/portfolio2.png"
+      ],
+      "technologies": ["React", "CSS", "JavaScript"],
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "title": "Proyecto 3",
+      "description": "Descripción del proyecto 3",
+      "images": [
+        "projects/project3.png"
+      ],
+      "technologies": ["React", "Firebase", "Material UI"],
+      "link": "#"
+    }
+  ]
+} 
