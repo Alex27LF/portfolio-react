@@ -4,12 +4,15 @@ import { getImageUrl } from "../../utils";
 export const Contact = () => {
   return (
     <section className={styles.container} id="contact">
-      <h2 className={styles.title}>Contacto</h2>
+      <h2 className={styles.title}>Contact</h2>
       <div className={styles.content}>
+        <div className={styles.profileColumn}>
+          <img src={getImageUrl("profile/profile3.png")} alt="Profile" className={styles.profileImage} />
+        </div>
         <div className={styles.contactCard}>
           <div className={styles.contactHeader}>
-            <h3>¡Hablemos!</h3>
-            <p>Estoy disponible para colaboraciones y oportunidades</p>
+            <h3>{`Let's talk!`}</h3>
+            <p>I am available for collaborations and opportunities.</p>
           </div>
           <div className={styles.contactLinks}>
             <a
@@ -26,7 +29,6 @@ export const Contact = () => {
                 />
                 <div className={styles.linkInfo}>
                   <span className={styles.linkTitle}>Email</span>
-                  <span className={styles.linkValue}>Alex Fabricio Pachacama</span>
                 </div>
               </div>
               <div className={styles.linkArrow}>→</div>
@@ -45,7 +47,6 @@ export const Contact = () => {
                 />
                 <div className={styles.linkInfo}>
                   <span className={styles.linkTitle}>LinkedIn</span>
-                  <span className={styles.linkValue}>Alex Fabricio Pachacama</span>
                 </div>
               </div>
               <div className={styles.linkArrow}>→</div>
@@ -64,7 +65,6 @@ export const Contact = () => {
                 />
                 <div className={styles.linkInfo}>
                   <span className={styles.linkTitle}>GitHub</span>
-                  <span className={styles.linkValue}>Alex Fabricio Pachacama</span>
                 </div>
               </div>
               <div className={styles.linkArrow}>→</div>

@@ -89,6 +89,7 @@
   object-fit: contain;
   border-radius: 10px;
   transition: transform 0.3s ease;
+  filter: drop-shadow(5px 5px rgba(0, 0, 0, 0.2));
 }
 
 .experience:hover .companyImage {

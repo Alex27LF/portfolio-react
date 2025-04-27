@@ -4,12 +4,10 @@
   margin-top: 120px;
   margin-left: 10%;
   margin-right: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .title {
+  text-align: center;
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 40px;
@@ -17,17 +15,47 @@
 }
 
 .content {
-  width: 100%;
-  max-width: 800px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.profileColumn {
+  flex: 1;
   display: flex;
   justify-content: center;
 }
 
+.profileImage {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 20px;
+  filter: drop-shadow(5px 5px rgba(0, 0, 0, 0.2));
+  z-index: 1;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
 .contactCard {
+  flex: 1;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
   padding: 40px;
-  width: 100%;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -99,12 +127,6 @@
   color: var(--color-text);
 }
 
-.linkValue {
-  font-size: 16px;
-  color: var(--color-text);
-  opacity: 0.8;
-}
-
 .linkArrow {
   font-size: 24px;
   color: var(--color-primary);
@@ -127,8 +149,21 @@
     font-size: 36px;
   }
 
+  .content {
+    flex-direction: column;
+  }
+
+  .profileColumn {
+    order: 1;
+  }
+
+  .profileImage {
+    max-width: 180px;
+  }
+
   .contactCard {
-    padding: 30px;
+    order: 2;
+    width: 100%;
   }
 
   .contactHeader h3 {

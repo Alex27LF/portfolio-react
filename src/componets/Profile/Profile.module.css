@@ -54,6 +54,8 @@
 .heroImg {
   width: 25%;
   z-index: 1;
+  border-radius: 20px;
+  filter: drop-shadow(5px 5px rgba(0, 0, 0, 0.2));
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -133,7 +135,7 @@
 
   .heroImg {
     width: 90%;
-    max-width: 350px;
+    max-width: 300px;
     margin-top: 2rem;
   }
 
@@ -174,7 +176,7 @@
 
   .heroImg {
     width: 100%;
-    max-width: 280px;
+    max-width: 180px;
   }
 
   .topBlur {
