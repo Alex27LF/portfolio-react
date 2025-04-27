@@ -27,10 +27,6 @@ export const SEO = () => {
         property="og:description"
         content="Professional portfolio of Alex Fabricio Pachacama, Full Stack developer specialized in backend, mobile applications and modern technologies."
       />
-      <meta
-        property="og:image"
-        content="https://aleks-fabricio.vercel.app/assets/og-image.png"
-      />
 
       {/* Favicon */}
       <link rel="icon" type="image/png" href="/favicon.png" />
