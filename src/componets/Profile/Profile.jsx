@@ -17,7 +17,7 @@ export const Profile = () => {
             text="Contact Me"
           />
           <ButtonStyle
-            link="https://drive.google.com/file/d/1q3aq8eI2jD72DpgJ40ALyMe4rcvpmgNa/view?usp=drive_link"
+            link={getImageUrl("profile/CV Alex.pdf")}
             text="Download CV"
           />
         </div>

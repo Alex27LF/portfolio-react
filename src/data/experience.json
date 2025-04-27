@@ -4,27 +4,27 @@
       "id": 1,
       "company": "Pacusoft S.A.S.",
       "position": "Software Engineer",
-      "period": "feb 2024 - Present",
+      "period": "dic 2023 - Present",
       "duration": "",
-      "description": "Leading development of enterprise-level applications using React and Node.js. Implementing microservices architecture and cloud solutions.",
+      "description": "Focused on developing business process solutions using Scriptcase (PHP) and SQL Server. Also, in the development and deployment of mobile applications with Kalipso Studio, published in Google Play Store and distributed privately through Apple Store.",
       "image": "pacusoft.png"
     },
     {
       "id": 2,
       "company": "Corporación Wolf S.A.",
-      "position": "Backend de Facturación Electrónica",
-      "period": "feb 2023 - ago 2023",
+      "position": "Backend Developer – Electronic Invoicing",
+      "period": "feb 2023 - ago 2023 (Thesis Project)",
       "duration": "6 meses",
-      "description": "Developed and maintained web applications using modern JavaScript frameworks. Collaborated with cross-functional teams on large-scale projects.",
+      "description": "Develop an API for an electronic invoicing system using NestJS with TypeORM, PostgreSQL, and GitHub Actions. Follow a DevOps approach to implement CI/CD pipelines, leveraging tools like Insomnia for API testing. The project includes an in-depth analysis of Ecuador’s electronic invoicing process as defined by the SRI (Servicio de Rentas Internas).",
       "image": "wolf.png"
     },
     {
       "id": 3,
       "company": "Corporación Wolf S.A.",
-      "position": "Desarrollador Full-Stack en el Sistema de Logística de Paquetería Quibox",
-      "period": "sep 2022 - nov 2022",
+      "position": "Full-Stack Developer – Quibox Logistics System",
+      "period": "sep 2022 - nov 2022 (Internship)",
       "duration": "240 horas",
-      "description": "Worked on front-end development using React and Redux. Participated in agile development processes and code reviews.",
+      "description": "Develop a real-time chat module using SocketIO for communication across multiple applications (driver, user, affiliate, and backend). I created backend services and interfaces for web and mobile platforms. I also built an advertising module for the administration platform, using technologies such as NestJS, PostgreSQL, React, Tailwind CSS, React Native, TypeORM and TypeScript.",
       "image": "wolf.png"
     }
   ]
