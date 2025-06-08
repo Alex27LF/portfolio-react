@@ -28,13 +28,10 @@
       "name": "NestJS",
       "icon": "nestjs.svg"
     },
+    { "name": "Express", "icon": "express.svg" },
     {
-      "name": "Node.js",
-      "icon": "nodejs.svg"
-    },
-    {
-      "name": "Express",
-      "icon": "express.svg"
+      "name": "Insomnia",
+      "icon": "insomnia.svg"
     },
     {
       "name": "Flutter",
@@ -45,16 +42,8 @@
       "icon": "react.svg"
     },
     {
-      "name": "Insomnia",
-      "icon": "insomnia.svg"
-    },
-    {
       "name": "GitHub",
       "icon": "github.svg"
-    },
-    {
-      "name": "GitHub Actions",
-      "icon": "githubactions.svg"
     }
   ]
 }
