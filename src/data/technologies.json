@@ -1,53 +1,56 @@
 {
   "technologies": [
     {
-        "name": "Scriptcase",
-        "icon": "scriptcase.png"
-      },
-      {
-        "name": "Kalipso Studio",
-        "icon": "kalipso.png"
-      },
-      {
-        "name": "Microsoft SQL Server",
-        "icon": "microsoftsqlserver.svg"
-      },
-      {
-        "name": "PostgreSQL",
-        "icon": "postgresql.svg"
-      },
-      {
-        "name": "JavaScript",
-        "icon": "javascript.svg"
-      },
-      {
-        "name": "NestJS",
-        "icon": "nestjs.svg"
-      },
-      {
-        "name": "Node.js",
-        "icon": "nodejs.svg"
-      },
-      {
-        "name": "Express",
-        "icon": "express.svg"
-      },
-      {
-        "name": "Flutter",
-        "icon": "flutter.svg"
-      },
-      {
-        "name": "React",
-        "icon": "react.svg"
-      },
-      
-      {
-       "name": "Insomnia",
-        "icon": "insomnia.svg"
-      },
-      {
-        "name": "GitHub",
-        "icon": "github.svg"
-      }
+      "name": "Scriptcase",
+      "icon": "scriptcase.png"
+    },
+    {
+      "name": "Kalipso Studio",
+      "icon": "kalipso.png"
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "icon": "microsoftsqlserver.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "postgresql.svg"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "typescript.svg"
+    },
+    {
+      "name": "NextJS",
+      "icon": "nextjs.svg"
+    },
+    {
+      "name": "NestJS",
+      "icon": "nestjs.svg"
+    },
+    {
+      "name": "Node.js",
+      "icon": "nodejs.svg"
+    },
+    {
+      "name": "Express",
+      "icon": "express.svg"
+    },
+    {
+      "name": "Flutter",
+      "icon": "flutter.svg"
+    },
+    {
+      "name": "React",
+      "icon": "react.svg"
+    },
+    {
+      "name": "Insomnia",
+      "icon": "insomnia.svg"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github.svg"
+    }
   ]
-} 
+}
