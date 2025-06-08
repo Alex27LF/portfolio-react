@@ -12,6 +12,15 @@
     {
       "id": 2,
       "company": "Corporación Wolf S.A.",
+      "position": "Full-Stack Developer - Robot Wolf",
+      "period": "By objectives (Freelance)",
+      "duration": "-",
+      "description": "Develop a weekly planning and daily activity tracking module using Strapi for the backend and ReactJS for the UI. Also contributed to the 2D challenges module by implementing level design and game logic with Phaser, creating educational mini-games for children. Worked collaboratively with another developer throughout the project.",
+      "image": "wolf.png"
+    },
+    {
+      "id": 3,
+      "company": "Corporación Wolf S.A.",
       "position": "Backend Developer – Electronic Invoicing",
       "period": "feb 2023 - ago 2023 (Thesis Project)",
       "duration": "6 meses",
@@ -19,7 +28,7 @@
       "image": "wolf.png"
     },
     {
-      "id": 3,
+      "id": 4,
       "company": "Corporación Wolf S.A.",
       "position": "Full-Stack Developer – Quibox Logistics System",
       "period": "sep 2022 - nov 2022 (Internship)",
