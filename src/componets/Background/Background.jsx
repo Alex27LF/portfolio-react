@@ -48,7 +48,7 @@ export const Background = () => {
             },
             links: {
               color: "#64ffda",
-              distance: 150,
+              distance: 120,
               enable: true,
               opacity: 0.5,
               width: 1,
