@@ -8,8 +8,10 @@ export const Profile = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, {`I'm`} Alex</h1>
         <p className={styles.description}>
-          Software Engineer with a solid foundation in programming and a great
-          enthusiasm for backend and mobile development.
+          Software Engineer with a strong foundation in programming and a
+          passion for backend and mobile development. Eager to collaborate on
+          impactful projects, continuously grow as a developer, and gain
+          hands-on experience in real-world environments.
         </p>
         <div className={styles.buttons}>
           <ButtonStyle
