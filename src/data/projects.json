@@ -2,36 +2,68 @@
   "projects": [
     {
       "id": 1,
-      "title": "Quibox",
-      "description": "Sistema de Logística de Paquetería",
-      "images": [
-        "technologies/nestjs.svg",
-        "technologies/javascript.svg",
-        "technologies/typescript.svg"
-      ],
-      "technologies": ["React", "Node.js", "MongoDB", "Express"],
-      "link": "https://quibox.com"
+      "title": "Chat Module",
+      "subtitle": "Quibox Logistics System",
+      "image": "godofwar1.jpg",
+      "technologies": [
+        "nestjs.svg",
+        "postgresql.svg",
+        "react.svg",
+        "tailwindcss.svg",
+        "typescript.svg"
+      ]
     },
     {
       "id": 2,
-      "title": "Portfolio",
-      "description": "Portafolio Personal",
-      "images": [
-        "projects/portfolio1.png",
-        "projects/portfolio2.png"
-      ],
-      "technologies": ["React", "CSS", "JavaScript"],
-      "link": "#"
+      "title": "Electronic Invoicing API",
+      "subtitle": "",
+      "image": "invocing-backend.png",
+      "technologies": [
+        "nestjs.svg",
+        "postgresql.svg",
+        "insomnia.svg",
+        "githubactions.svg"
+      ]
     },
     {
       "id": 3,
-      "title": "Proyecto 3",
-      "description": "Descripción del proyecto 3",
-      "images": [
-        "projects/project3.png"
-      ],
-      "technologies": ["React", "Firebase", "Material UI"],
-      "link": "#"
+      "title": "Weekly Planning",
+      "subtitle": "Robot Wolf",
+      "image": "portfolio2.png",
+      "technologies": ["strapi.svg", "react.svg", "css.svg"]
+    },
+    {
+      "id": 4,
+      "title": "2D challenges",
+      "subtitle": "Robot Wolf",
+      "image": "project4.png",
+      "technologies": ["strapi.svg", "react.svg", "phaser.png"]
+    },
+    {
+      "id": 5,
+      "title": "Advertising Module",
+      "subtitle": "Quibox Logistics System",
+      "image": "typescript.svg",
+      "technologies": [
+        "nestjs.svg",
+        "react.svg",
+        "tailwindcss.svg",
+        "typescript.svg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Todo List App",
+      "subtitle": "",
+      "image": "todolist.png",
+      "technologies": ["flutter.svg"]
+    },
+    {
+      "id": 7,
+      "title": "Movies App",
+      "subtitle": "",
+      "image": "ReacJs",
+      "technologies": ["react.svg"]
     }
   ]
-} 
+}
